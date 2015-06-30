@@ -45,6 +45,9 @@
     "react-component",
     "animation"
   ],
+  "browserify": {
+    "transform": ["reactify"]
+  },
   "browserify-shim": {
     "react": "global:React"
   }
